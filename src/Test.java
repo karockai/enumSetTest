@@ -17,7 +17,7 @@ public class Test {
     System.out.println("allOf() 시행 시간(ms) : "+allOfSecDiffTime);
 
     long staticBeforeTime = System.currentTimeMillis(); //코드 실행 전에 시간 받아오기
-    allOfTest();
+    allOfStaticTest();
     long staticAfterTime = System.currentTimeMillis(); // 코드 실행 후에 시간 받아오기
     long staticSecDiffTime = (staticAfterTime - staticBeforeTime); //두 시간에 차 계산
     System.out.println("static EnumSet 시행 시간(ms) : "+staticSecDiffTime);
